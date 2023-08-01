@@ -30,13 +30,14 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install pytest  # Add this line
 
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
+
       - name: Test with pytest
         run: |
-          source venv/bin/activate  # Add this line
+          source venv/bin/activate
           pytest tests/test_fast.py
+
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v2
         with:
