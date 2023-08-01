@@ -68,3 +68,4 @@ jobs:
           app-name: 'botanicGit'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_73CFFABC53D34D82B916D2591572329B }}
+#test redemarre app
