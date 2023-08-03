@@ -10,3 +10,4 @@ uvicorn==0.23.2
 pytest==7.4.0
 pluggy==1.2.0
 iniconfig==2.0.0
+streamlit
